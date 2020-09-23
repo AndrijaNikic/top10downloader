@@ -1,0 +1,24 @@
+<resources>
+
+    <color name="primary">@color/md_light_blue_500</color>
+    <color name="primary_dark">@color/md_light_blue_800</color>
+    <color name="primary_light">#FFFFFF</color>
+    <color name="accent">#009688</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:textColorSecondary">@color/secondary_text</item>
+        <item name="android:icon">@color/icons</item>
+        <item name="android:windowBackground">@color/primary_light</item>
+        <item name="cardBackgroundColor">@color/primary</item>
+    </style>
+
+</resources>
